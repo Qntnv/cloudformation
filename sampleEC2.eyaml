@@ -59,8 +59,9 @@ Resources:
           - !Ref InstanceType
           - Arch
       Tags:
-        - Key: Name
-        - Value: New FromCF
+        - 
+          Key: Name
+          Value: New FromCF
   EC2Instance:
     Type: 'AWS::EC2::Instance'
     Properties:
@@ -76,8 +77,9 @@ Resources:
           - !Ref InstanceType
           - Arch
       Tags:
-        - Key: Name
-        - Value: New FromCF
+        - 
+          Key: Name
+          Value: New FromCF
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
