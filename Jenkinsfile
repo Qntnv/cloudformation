@@ -11,7 +11,7 @@ pipeline {
         stage('New Stage') {
           steps {
             sleep 10
-            git(url: 'http://172.0.0.4/', branch: 'master', credentialsId: 'root', poll: true)
+            git(url: 'http://8e3412364883/root/test.git', branch: 'master', credentialsId: 'root', poll: true)
           }
         }
       }
